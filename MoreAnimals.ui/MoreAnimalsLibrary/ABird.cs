@@ -4,22 +4,21 @@ using System.Text;
 
 namespace MoreAnimalsLibrary
 {
-    //Dog implements IAnimal interface
-    //which means every member specified by IAnimal is guaranteed to be present on this class
-    public class Dog : IAnimal
+    //an abstract class is like a mix of a class and interface
+    //we can probide some implimentations, while leaving other things unimplemented
+    class ABird : IAnimal
     {
         public int AnimalId { get; set; }
         public string Name { get; set; }
-        public string Breed { get; set; }
 
         public void MakeNoise()
         {
-            Console.WriteLine("woof!");
+            Console.WriteLine("Cherp!");
         }
 
         public void GoTo(string location)
         {
-            Console.WriteLine($"Walking to {location}");
+            Console.WriteLine($"Flying to {location}");
         }
     }
 }
