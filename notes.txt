@@ -1,1 +1,8 @@
 put notes here
+
+//Git Commands
+git clone "link"
+git pull
+git add "file"
+git commit "-m quick message"
+git push "add to repository"
