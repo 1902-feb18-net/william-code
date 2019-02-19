@@ -1,4 +1,5 @@
 ﻿using System;
+using animals.Library;
 
 namespace animals.ui
 {
@@ -7,6 +8,12 @@ namespace animals.ui
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            var dog = new Dog();
+            dog.Name = "Fido";
+
+            dog.GoTo("door");
+            dog.MakeNoise;
         }
     }
 }

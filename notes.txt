@@ -1,8 +1,32 @@
 put notes here
 
 //Git Commands
-git clone "link"
-git pull
-git add "file"
+git clone   "link"
+git pull    "update local directory"
+git add     "file"
+git reset   "revert add"
 git commit "-m quick message"
-git push "add to repository"
+git push    "add to repository"
+git log     "shows commits and messages"
+git stash   "for later use"
+Head means current commit
+^ means parrent of something
+
+//dotnet Commands
+dotnet new console -n "adds new console app with name"
+dotnet build            "compiles"
+dotnet run              "runs"
+
+//vs code
+code .      "opens current folder in gui"
+
+
+Git 
+    version control system (VCS)
+    source control management(SCM) tool
+
+    distributed VCS other VCSs
+                    svn(subversion)
+                    hg(mercurial)
+                    tfs
+

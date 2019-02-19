@@ -5,8 +5,37 @@ namespace animals.ui
 {
     public class Dog
     {
-        public string Noise = "Woof!";
+        internal string Noise = "Woof!";
 
+        public string getNoise()
+        {
+            return Noise;
+        }
+
+        public void setNoise(string newValue)
+        {
+            if (newValue == null || newValue.Length == 0)
+            {
+                throw new ArgumentException("value must not be null or 0");
+            }
+            Noise = newValue;
+        }
+
+        private string _name;
+        public string Name {
+            get
+            {
+                return _name;
+            } 
+            set
+            {
+                _name = value;
+            }
+            }
+        // property syntax provides getters and setters
+        // pretending to be fields
+        // in C# we have properties where other languages would just
+        // use fields on there own
         public Dog()
         {
         }
