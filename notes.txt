@@ -30,3 +30,14 @@ Git
                     hg(mercurial)
                     tfs
 
+extended modifiers
+            Class   |   Member
+static      xxx     |     xxx           
+virtual             |     xxx
+override            |     xxx
+new                 |     xxx
+const               |     xxx
+readonly            |     xxx
+abstract    xxx     |     xxx
+sealed      xxx     | 
+partial     xxx     |

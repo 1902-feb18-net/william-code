@@ -11,7 +11,9 @@ namespace MoreAnimalsLibrary
         public int AnimalId { get; set; }
         public string Name { get; set; }
 
-        public void MakeNoise()
+        //virtual is an extended modifier
+        // meaning "opt-in derived classes being allowed to override it"
+        public virtual void MakeNoise()
         {
             Console.WriteLine("Cherp!");
         }
