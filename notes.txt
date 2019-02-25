@@ -41,3 +41,18 @@ readonly            |     xxx
 abstract    xxx     |     xxx
 sealed      xxx     | 
 partial     xxx     |
+
+
+WED 2/20
+    *see paper notes
+
+    pull:
+        fetch - updates the remote traching branches
+        merge - (with no arguments) merges the right r.t.b. into the current branches
+
+    commit/push/pull often to avoid repo conflicts
+
+branch management Commands
+    git checkout -b "name"
+    git branch "name"
+    git checkout "name" -lets you switch between branches
