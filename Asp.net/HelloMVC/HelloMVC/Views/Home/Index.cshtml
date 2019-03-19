@@ -1,0 +1,31 @@
+﻿@model HelloMVC.Models.User
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome @Model.UserName</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<div>
+    <h3>User address:</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Address.Street</th>
+                <th>Address.CityState</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{var id = 1; }
+            @{ foreach (address in Model.Address)}
+                <td>id</td>
+                <td>address.Street</td>
+                <td>address.CityState</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
